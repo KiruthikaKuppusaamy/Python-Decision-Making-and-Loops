@@ -1,0 +1,94 @@
+# Decision Making - if .. else
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 50:
+    print("You have passed!")
+else:
+    print("You have failed.")
+
+
+
+Output
+
+Enter your marks: 89
+You have passed!
+
+___________________________________________________________________________________
+
+# Decision Making - if .. elif
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 60:
+    print("Grade: C")
+elif marks >= 50:
+    print("Grade: D")
+else:
+    print("Grade: F (Fail)")
+
+
+
+Output
+
+Enter your marks: 89
+Grade: B
+
+__________________________________________________________________________________
+# Loop
+
+word = "Python"
+for letter in word:
+    print(letter)
+
+
+Output
+
+P
+y
+t
+h
+o
+n
+
+
+___________________________________________________________________________________
+
+# Loop with range()
+
+for i in range(1, 6):
+    print(i)
+
+
+Output
+
+1
+2
+3
+4
+5
+
+___________________________________________________________________________________
+
+# Loop - while
+
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
+
+
+Output
+
+1
+2
+3
+4
+5
+
+___________________________________________________________________________________
+
